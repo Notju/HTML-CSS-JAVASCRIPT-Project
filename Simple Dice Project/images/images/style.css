@@ -1,0 +1,39 @@
+#heading{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 150px;
+    margin: auto;
+    
+}
+
+#heading::before{
+    margin-bottom: 5px;
+    content: " ";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    display: block;
+}
+
+#heading::after{
+    
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    display: block;
+    margin:  5px 0px 30px 100px;
+
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+#P1,#P2{
+    font-size: 22px;
+    text-align: center;
+    
+}
