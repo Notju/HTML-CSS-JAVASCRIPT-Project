@@ -1,3 +1,6 @@
+body{
+    background-color: blanchedalmond;
+}
 #heading{
     font-size: 26px;
     font-weight: 700;
@@ -35,5 +38,9 @@
 #P1,#P2{
     font-size: 22px;
     text-align: center;
-    
+
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
 }
