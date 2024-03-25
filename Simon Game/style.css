@@ -45,3 +45,7 @@ body{
 #green{
     background-color: green;
 }
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
